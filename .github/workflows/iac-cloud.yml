@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  TF_DIR: aws                 # CAMBIAR: aws | azure | gcp
+  TF_DIR: azure
   # Credenciales: cargar como secrets SOLO las de tu nube
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
